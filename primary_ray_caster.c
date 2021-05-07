@@ -40,7 +40,7 @@ void castPrimary(uint32_t height, uint32_t width, uint32_t numObjects)
 void render( 
 	const Options &options, 
 	const std::vector> &objects, 
-	const std::vector> &lights) 
+	const std::vector> &lights)
 {
 	float	cameraToWorld[4][4];
 	Vec3f *framebuffer = new Vec3f[options.width * options.height]; 
