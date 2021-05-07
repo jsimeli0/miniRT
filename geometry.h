@@ -1,7 +1,7 @@
 typedef	struct		s_Ray
 {
 	uint32_t	origin[3];
-	uint32_t vector[3];
+	uint32_t 	vector[3];
 }					t_Ray;
 
 typedef	struct		s_Options
